@@ -31,7 +31,6 @@ const UserInput = (props) => {
     })
   }
 
-// [input] : value , this way we dont set the property named input (because it doesnt exist ) instead we set the property which name is stored in input
   return (
     <form onSubmit={submitHandler} className={classes.form}>
         <div className={classes['input-group']}>

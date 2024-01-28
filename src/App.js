@@ -14,8 +14,8 @@ function App() {
 
   if(userInput){
     
-    let currentSavings = +userInput['current-savings']; // feel free to change the shape of this input object!
-    const yearlyContribution = +userInput['yearly-contribution']; // as mentioned: feel free to change the shape...
+    let currentSavings = +userInput['current-savings']; 
+    const yearlyContribution = +userInput['yearly-contribution']; 
     const expectedReturn = +userInput['expected-return'] / 100;
     const duration = +userInput['duration'];
 
@@ -24,7 +24,6 @@ function App() {
       const yearlyInterest = currentSavings * expectedReturn;
       currentSavings += yearlyInterest + yearlyContribution;
       yearlyData.push({
-        // feel free to change the shape of the data pushed to the array!
         year: i + 1,
         yearlyInterest: yearlyInterest,
         savingsEndOfYear: currentSavings,
@@ -35,7 +34,6 @@ function App() {
 
   return (
     <div>
-      {/* home is header lool */}
       <Home/>
 
       <UserInput onCalculate={calculateHandler} />
