@@ -1,0 +1,75 @@
+.pricingCard {
+    padding: 2em;
+    border-radius: 1em;
+    text-align: center;
+    color: var(--neutral-dark-grayish-blue);
+    background-color: var(--neutral-white);
+    width: min(100%, 30rem);
+  }
+  
+  .pricingCard:nth-child(2) {
+    background-image: linear-gradient(to right, var(--primary-linear-gradient));
+    color: var(--neutral-white);
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .pricingCard header > .price {
+    margin-block: 1rem;
+    font-size: 3.5em;
+  }
+  
+  .pricingCard .features > * {
+    padding-block: 1em;
+    border-bottom: 1px solid var(--neutral-light-grayish-blue);
+  }
+  
+  /* .pricingCard .features :first-child {
+    border-top: 1px solid var(--neutral-light-grayish-blue);
+  } */
+  
+  .pricingCard .features :last-child {
+    margin-bottom: 2em;
+  }
+  
+  .pricingCard .btn {
+    cursor: pointer;
+    padding-block: 1em;
+    width: 100%;
+    border-radius: 0.5em;
+    background-image: linear-gradient(to right, var(--primary-linear-gradient));
+    border: 2px solid transparent;
+    outline: transparent;
+    transition: 0.125s ease;
+    color: var(--neutral-white);
+  }
+  
+  .pricingCard .btn:is(:focus-visible, :hover) {
+    color: hsl(237, 63%, 64%);
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, var(--primary-linear-gradient)) border-box;
+    border-radius: 0.5em;
+    border: 2px solid transparent;
+  }
+  
+  .pricingCard:nth-child(2) .btn {
+    background: transparent;
+    background-color: var(--neutral-white);
+    color: hsl(237, 63%, 64%);
+  }
+  
+  .pricingCard:nth-child(2) .btn:is(:focus-visible, :hover) {
+    color: var(--neutral-white);
+    background: linear-gradient(to right, var(--primary-linear-gradient))
+        padding-box,
+      linear-gradient(white, white) border-box;
+    border-radius: 0.5em;
+    border: 2px solid transparent;
+  }
+
+  ul{
+    list-style: none;
+  }

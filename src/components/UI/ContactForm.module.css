@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/from.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* .ContactPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 400px;
+    margin-right: 400px;
+    backdrop-filter: blur(0.5px);
+    background-color: rgba(251, 251, 251, 0.911);
+  } */
+
+  .ContactPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .FormContainer {
+    display: flex;
+    width: 80%; /* Adjust the width as needed */
+  }
+  
+  /* .Form {
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #3438db;
+    background-color: rgba(251, 251, 251, 0.911);
+  } */
+  
+  /* .Form {
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #3438db;
+    background-color: rgba(251, 251, 251, 0.8); /* Adjust the alpha (last value) to control transparency */
+  /* backdrop-filter: blur(5px); 
+  }  */
+
+  Form {
+    /* width: 60%; */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #3438db;
+    background-color: rgba(251, 251, 251, 0.8);
+    backdrop-filter: blur(5px);
+  }
+
+  .InfoSection {
+    width: 50%;
+    padding: 20px;
+
+    text-align: center;
+    font-weight: bold;
+    background-color: #4346f8;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px; 
+    height: 465px;
+  }
+  
+
+
+   /* textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  /* }  */
+
+   /* .InfoSection {
+    height: 100;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(251, 251, 251, 0.8); /* Adjust the alpha (last value) to control transparency */
+    /* backdrop-filter: blur(5px); 
+  }  */
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
+  .InfoSection h2 {
+    margin-bottom: 70px;
+    font-weight: 900;
+  }
+  
+  .InfoSection div {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: white;
+  }
+
+  

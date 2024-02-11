@@ -1,0 +1,54 @@
+.header {
+  background-color: white; /* Choose your background color */
+  color: #fff; /* Choose your text color */
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #3438db;
+  margin-top: 50px;
+}
+  img{
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .link {
+    color: #3438db; /* Choose your link color */
+    text-decoration: none;
+    padding: 12px;
+    margin-right: 50px; /* Adjust the margin to create a gap */
+    position: relative;
+    transition: color 0.3s ease, font-weight 0.3s ease, background-color 0.8s ease;
+    border-radius: 15px;
+  }
+  
+  /* Add margin-right to all links except the last one to prevent unnecessary spacing */
+  .link:not(:last-child) {
+    margin-right: 20px; /* Adjust the margin to create a gap */
+  }
+  
+  
+  .link:hover {
+    font-weight: bold;
+    color: white; /* Choose your hover color */
+    background-color: #3438db;
+  }
+  
+  .link:not(:last-child):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 80%;
+    background-color: #fff; /* Choose your separator color */
+  }
+  
